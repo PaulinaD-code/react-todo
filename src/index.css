@@ -1,0 +1,162 @@
+body{
+  background-color: #4a148c;
+  background-color:#310e58 ;
+}
+
+input{
+  background-color: transparent;
+  font: inherit;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  border: 1px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  padding: .6rem .9rem;
+  color: #fff;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-list{
+  width: 4rem;
+  height: 4rem;
+  margin: 0 1rem 0 0 ;
+}
+
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Sour Gummy", sans-serif;
+  letter-spacing: .1rem;
+}
+
+h1{
+  font-size: 4rem;
+  color: #fff;
+  font-family: "Sour Gummy", sans-serif;
+  letter-spacing: .1rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button{
+  background-color: rgb(30, 187, 30);
+  background-color:  #8758ff;
+  font: inherit;
+  font-size: 2rem;
+  letter-spacing: .1rem;;
+}
+
+.add-button:hover{
+  background-color:  #3a11a1;
+}
+
+.delete-button{
+  background-color: transparent;
+  font: inherit;
+  color: #fff;
+}
+
+.delete-button:hover{
+  color: rgb(39, 3, 39);
+}
+
+.move-button{
+  background-color: transparent;;
+}
+
+.move-button:hover{
+  background-color: light-blue;
+}
+
+.input[type = "text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: grey;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  /*border: 3px solid hsla(0, 0%, 85%, 0.75);*/
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color:  #8758ff;
+}
+
+
+.text{
+  flex: 1;
+  text-align: left;
+}
+
+.delete-button, 
+.move-button{
+padding: 8px, 12px;
+font-size: 1.4rem;
+margin-left: 10px;
+}
+
+.move-button{
+  padding: 0;
+}
+
+.arrow-up,
+.arrow-down{
+  width: 2rem;
+  height: 2rem;
+}
+
+.arrow-down{
+  transform: rotate(180deg);
+}
+
+.background-img{
+  width: 100%;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.checkInput{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+@media(max-width:700px){
+  .li{
+    font-size: 1rem;
+  }
+  .text{
+    flex: 1;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+}
